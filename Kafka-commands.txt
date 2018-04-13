@@ -14,7 +14,7 @@ Setting up producer to send out events
 	.\kafka-console-producer.bat --broker-list localhost:9092 --topic stream_pipe
 	
 Setting up consumer to read out events	
-	.\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic stream_pipe --from-beginnning
+	.\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic stream_pipe --from-beginning
 	
 	
 Multi Broker Setup	
